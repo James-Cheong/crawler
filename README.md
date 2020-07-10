@@ -5,3 +5,4 @@ Need to install MySQL and set up a connection first.
 
 Because the crawler will save the data to database.
 
+This crawler will fetch the data every 5 mins.
