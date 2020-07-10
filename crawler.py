@@ -3,6 +3,7 @@ import requests
 import json
 import pymysql
 import datetime
+import time
 
 records_arrival = []
 records_departure = []
@@ -137,4 +138,6 @@ def main():
     insert()
 
 
-main()
+while True:
+    main()
+    time.sleep(300)
